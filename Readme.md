@@ -68,7 +68,10 @@ All datasets are sourced from reputable institutional and government sources. No
 ## Analysis Overview  
 
 ### Annual Macro Overview
-![Overview](overall_analysis.png)
+
+<img width="1353" height="796" alt="overall_analysis" src="https://github.com/user-attachments/assets/ebfcac49-1c2b-4b8a-b647-ab6160e71885" />
+
+
 
 Combines all 7 economic indicator tables into a single annual view across 7 countries from 2020-2024. This serves as the foundation dataset for the project, providing a complete picture of each country's economic profile before executing deeper analysis.
 
@@ -79,7 +82,8 @@ Combines all 7 economic indicator tables into a single annual view across 7 coun
 ### Inequality Analysis
 Inequality classifications are categorized based on the Gini Coefficient. Countries with low Gini coefficients on the near years are automatically assumed as low Gini.
 
-![Inequality_Analysis](Inequality_Analysis.png)
+<img width="435" height="795" alt="Inequality_Analysis" src="https://github.com/user-attachments/assets/2f2c826e-531c-441d-be64-1275431a964f" />
+
 
 #### Findings:
 * **Socio-Economic Correlations:** There is a strong positive correlation between inequality and unemployment, alongside a corresponding negative correlation between inequality and quality of life. Countries with lower Gini coefficients consistently demonstrated lower structural unemployment rates and higher QOL scores throughout the 2020-2026 timeline.
@@ -88,7 +92,9 @@ Inequality classifications are categorized based on the Gini Coefficient. Countr
 * **Low-Inequality Performance:** Among low-inequality countries, no single nation dominates across all metrics. Japan leads on labor market efficiency (2.80% unemployment in 2022), Australia dominates on lifestyle stability (183.8 QOL in 2022), while Germany maintains the strongest balanced profile across all indicators.
 
 ### Inflation Policy Analysis
-![Inflation_policy_Analysis](Inflation_Policy_analysis.png)
+
+<img width="627" height="611" alt="Inflation_policy_analysis" src="https://github.com/user-attachments/assets/14319dc8-de2c-4070-bd11-b987c93965b2" />
+
 
 The inflation rate is calculated based on changes in CPI over time. The policy rate is fixed by the respective central banks in response to inflation shocks; generally, higher inflation triggers a tighter monetary policy response.
 
@@ -103,7 +109,9 @@ The inflation rate is calculated based on changes in CPI over time. The policy r
 * **The UK's Stagflation Persistence:** UK inflation proved to be the most sticky and persistent, remaining near double digits into Q1 2023, nearly three-quarters of a year after the USA's inflation trajectory had turned downward. The UK took longer to control price pressures than any other developed economy in the dataset.
 
 ### Overall Economic Health Analysis
-![alt text](image.png)
+
+<img width="655" height="404" alt="Economic Health Analysis" src="https://github.com/user-attachments/assets/d787fa9f-6447-4cd6-9937-97dc150e36e6" />
+
 
 Economic health analysis normalises raw values into a standardized index ranging from 0 to 100 (where 0 represents the worst regional performer and 100 represents the optimal performer for any given indicator). Countries are then evaluated across all performance variables to compute a final balanced composite health score, which ranks overall resilience from 2020 to 2023.
 
@@ -129,3 +137,9 @@ This project successfully constructs a multi-layered analytical engine that dist
 * **Monetary Policy Proactivity:** Visualizing monetary responses confirms that proactive, early-cycle tightening (as seen in Brazil) is often necessary for stabilization in highly volatile markets, whereas delayed reactive measures (as observed in the Eurozone) can cause inflation pressures to linger over extended periods.
 
 Ultimately, this analysis moves past basic, standalone metrics to evaluate economic health holistically. The project demonstrates a strong ability to translate raw transactional data from public repositories into refined, engineered analytical products capable of driving complex macroeconomic tracking.
+
+## Upcoming Project: Power BI & Power Query Dynamic Visualization
+
+Building upon the backend data engineering established in this project, the next phase focuses on transitioning these SQL datasets into an interactive business intelligence suite using **Power BI** and **Power Query**. 
+
+Rather than relying on static image exports, this upcoming expansion will leverage the same cleaned, unified data architecture to deploy highly dynamic, consumer-facing macro dashboards.
