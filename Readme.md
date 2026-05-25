@@ -108,7 +108,7 @@ The inflation rate is calculated based on changes in CPI over time. The policy r
 * **Australia's Disciplined Disinflation:** Australia achieved the fastest structural disinflation. CPI inflation peaked at 7.83% in Q4 2022 and fell to 2.42% by Q4 2024—a 5.41 percentage point drop in just two years. The cash rate peaked at 4.35% and was held there for a highly disciplined macroeconomic response.
 * **The UK's Stagflation Persistence:** UK inflation proved to be the most sticky and persistent, remaining near double digits into Q1 2023, nearly three-quarters of a year after the USA's inflation trajectory had turned downward. The UK took longer to control price pressures than any other developed economy in the dataset.
 
-### [Overall Economic Health Analysis](/Queries/Economic_health_Analysis.sql)
+### [Overall Economic Health Analysis](/Queries/Economic_health_analysis.sql)
 
 <img width="655" height="404" alt="Economic Health Analysis" src="https://github.com/user-attachments/assets/d787fa9f-6447-4cd6-9937-97dc150e36e6" />
 
