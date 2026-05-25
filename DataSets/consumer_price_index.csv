@@ -1,0 +1,131 @@
+country_name,year,quarter,cpi
+Australia,2019,1,106.0
+Australia,2019,2,106.6
+Australia,2019,3,107.12
+Australia,2019,4,107.9
+Australia,2020,1,108.2888
+Australia,2020,2,106.2456
+Australia,2020,3,107.9173
+Australia,2020,4,108.8461
+Australia,2021,1,109.4962
+Australia,2021,2,110.332
+Australia,2021,3,111.1679
+Australia,2021,4,112.6538
+Australia,2022,1,115.0685
+Australia,2022,2,117.1117
+Australia,2022,3,119.2477
+Australia,2022,4,121.4767
+Australia,2023,1,123.1484
+Australia,2023,2,124.17
+Australia,2023,3,125.6559
+Australia,2023,4,126.3989
+Australia,2024,1,127.6062
+Australia,2024,2,128.9064
+Australia,2024,3,129.185
+Australia,2024,4,129.4637
+Brazil,2020,1,123.9305
+Brazil,2020,2,123.5002
+Brazil,2020,3,124.4655
+Brazil,2020,4,127.4925
+Brazil,2021,1,130.4809
+Brazil,2021,2,133.0346
+Brazil,2021,3,136.4667
+Brazil,2021,4,140.8642
+Brazil,2022,1,144.4992
+Brazil,2022,2,148.8869
+Brazil,2022,3,148.2647
+Brazil,2022,4,149.3866
+Brazil,2023,1,152.2088
+Brazil,2023,2,154.4831
+Brazil,2023,3,155.076
+Brazil,2023,4,156.4192
+Brazil,2024,1,158.7661
+Brazil,2024,2,160.5811
+Brazil,2024,3,161.879
+Brazil,2024,4,163.9599
+Germany,2020,1,105.4987
+Germany,2020,2,105.8852
+Germany,2020,3,105.1121
+Germany,2020,4,105.2175
+Germany,2021,1,107.0801
+Germany,2021,2,108.2047
+Germany,2021,3,109.1887
+Germany,2021,4,110.1727
+Germany,2022,1,112.211
+Germany,2022,2,115.409
+Germany,2022,3,117.2715
+Germany,2022,4,119.6261
+Germany,2023,1,121.4535
+Germany,2023,2,122.9646
+Germany,2023,3,123.8432
+Germany,2023,4,123.8784
+Germany,2024,1,124.5109
+Germany,2024,2,125.7761
+Germany,2024,3,126.2329
+Germany,2024,4,126.7249
+India,2020,1,125.4702
+India,2020,2,126.3628
+India,2020,3,129.3146
+India,2020,4,131.5501
+India,2021,1,131.036
+India,2021,2,133.0926
+India,2021,3,135.5532
+India,2021,4,138.0872
+India,2022,1,138.124
+India,2022,2,141.7231
+India,2022,3,143.743
+India,2022,4,145.9098
+India,2023,1,146.4606
+India,2023,2,148.8478
+India,2023,3,152.9243
+India,2023,4,152.8876
+India,2024,1,153.1446
+India,2024,2,154.5035
+India,2024,3,157.4048
+India,2024,4,158.9105
+Japan,2020,1,102.1804
+Japan,2020,2,101.8749
+Japan,2020,3,101.8071
+Japan,2020,4,101.332
+Japan,2021,1,101.6374
+Japan,2021,2,101.1284
+United Kingdom,2020,1,108.5
+United Kingdom,2020,2,108.7
+United Kingdom,2020,3,109.1
+United Kingdom,2020,4,109.3
+United Kingdom,2021,1,109.5
+United Kingdom,2021,2,110.9
+United Kingdom,2021,3,112
+United Kingdom,2021,4,114.1
+United Kingdom,2022,1,115.5
+United Kingdom,2022,2,119.7
+United Kingdom,2022,3,121.8
+United Kingdom,2022,4,124.8
+United Kingdom,2023,1,125.9
+United Kingdom,2023,2,128.9
+United Kingdom,2023,3,129.5
+United Kingdom,2023,4,130.3
+United Kingdom,2024,1,130.8
+United Kingdom,2024,2,132.7
+United Kingdom,2024,3,133.3
+United Kingdom,2024,4,134.7
+United States,2020,1,108.9604
+United States,2020,2,108.372
+United States,2020,3,109.5982
+United States,2020,4,109.8502
+United States,2021,1,111.029
+United States,2021,2,113.6269
+United States,2021,3,115.446
+United States,2021,4,117.1982
+United States,2022,1,119.8744
+United States,2022,2,123.4392
+United States,2022,3,125.0621
+United States,2022,4,125.5212
+United States,2023,1,126.8328
+United States,2023,2,128.3451
+United States,2023,3,129.4571
+United States,2023,4,129.5924
+United States,2024,1,130.9435
+United States,2024,2,132.4507
+United States,2024,3,132.8508
+United States,2024,4,133.1497

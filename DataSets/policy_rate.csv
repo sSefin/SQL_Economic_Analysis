@@ -1,0 +1,532 @@
+﻿country_name,month,year,policy_rate
+Australia,1,2020,0.75
+Australia,2,2020,0.75
+Australia,3,2020,0.25
+Australia,4,2020,0.25
+Australia,5,2020,0.25
+Australia,6,2020,0.25
+Australia,7,2020,0.25
+Australia,8,2020,0.25
+Australia,9,2020,0.25
+Australia,10,2020,0.25
+Australia,11,2020,0.1
+Australia,12,2020,0.1
+Australia,1,2021,0.1
+Australia,2,2021,0.1
+Australia,3,2021,0.1
+Australia,4,2021,0.1
+Australia,5,2021,0.1
+Australia,6,2021,0.1
+Australia,7,2021,0.1
+Australia,8,2021,0.1
+Australia,9,2021,0.1
+Australia,10,2021,0.1
+Australia,11,2021,0.1
+Australia,12,2021,0.1
+Australia,1,2022,0.1
+Australia,2,2022,0.1
+Australia,3,2022,0.1
+Australia,4,2022,0.1
+Australia,5,2022,0.35
+Australia,6,2022,0.85
+Australia,7,2022,1.35
+Australia,8,2022,1.85
+Australia,9,2022,2.35
+Australia,10,2022,2.6
+Australia,11,2022,2.85
+Australia,12,2022,3.1
+Australia,1,2023,3.1
+Australia,2,2023,3.35
+Australia,3,2023,3.6
+Australia,4,2023,3.6
+Australia,5,2023,3.85
+Australia,6,2023,4.1
+Australia,7,2023,4.1
+Australia,8,2023,4.1
+Australia,9,2023,4.1
+Australia,10,2023,4.1
+Australia,11,2023,4.35
+Australia,12,2023,4.35
+Australia,1,2024,4.35
+Australia,2,2024,4.35
+Australia,3,2024,4.35
+Australia,4,2024,4.35
+Australia,5,2024,4.35
+Australia,6,2024,4.35
+Australia,7,2024,4.35
+Australia,8,2024,4.35
+Australia,9,2024,4.35
+Australia,10,2024,4.35
+Australia,11,2024,4.35
+Australia,12,2024,4.35
+Australia,1,2025,4.35
+Australia,2,2025,4.1
+Australia,3,2025,4.1
+Australia,4,2025,4.1
+Australia,5,2025,3.85
+Australia,6,2025,3.85
+Australia,7,2025,3.85
+Australia,8,2025,3.6
+Australia,9,2025,3.6
+Australia,10,2025,3.6
+Australia,11,2025,3.6
+Australia,12,2025,3.6
+Australia,1,2026,3.6
+Australia,2,2026,3.85
+Australia,3,2026,4.1
+Australia,4,2026,4.1
+Brazil,1,2020,4.5
+Brazil,2,2020,4.25
+Brazil,3,2020,3.75
+Brazil,4,2020,3.75
+Brazil,5,2020,3
+Brazil,6,2020,2.25
+Brazil,7,2020,2.25
+Brazil,8,2020,2
+Brazil,9,2020,2
+Brazil,10,2020,2
+Brazil,11,2020,2
+Brazil,12,2020,2
+Brazil,1,2021,2
+Brazil,2,2021,2
+Brazil,3,2021,2.75
+Brazil,4,2021,2.75
+Brazil,5,2021,3.5
+Brazil,6,2021,4.25
+Brazil,7,2021,4.25
+Brazil,8,2021,5.25
+Brazil,9,2021,6.25
+Brazil,10,2021,7.75
+Brazil,11,2021,7.75
+Brazil,12,2021,9.25
+Brazil,1,2022,9.25
+Brazil,2,2022,10.75
+Brazil,3,2022,11.75
+Brazil,4,2022,11.75
+Brazil,5,2022,12.75
+Brazil,6,2022,13.25
+Brazil,7,2022,13.25
+Brazil,8,2022,13.75
+Brazil,9,2022,13.75
+Brazil,10,2022,13.75
+Brazil,11,2022,13.75
+Brazil,12,2022,13.75
+Brazil,1,2023,13.75
+Brazil,2,2023,13.75
+Brazil,3,2023,13.75
+Brazil,4,2023,13.75
+Brazil,5,2023,13.75
+Brazil,6,2023,13.75
+Brazil,7,2023,13.75
+Brazil,8,2023,13.25
+Brazil,9,2023,12.75
+Brazil,10,2023,12.75
+Brazil,11,2023,12.25
+Brazil,12,2023,11.75
+Brazil,1,2024,11.75
+Brazil,2,2024,11.25
+Brazil,3,2024,10.75
+Brazil,4,2024,10.75
+Brazil,5,2024,10.5
+Brazil,6,2024,10.5
+Brazil,7,2024,10.5
+Brazil,8,2024,10.5
+Brazil,9,2024,10.75
+Brazil,10,2024,10.75
+Brazil,11,2024,11.25
+Brazil,12,2024,12.25
+Brazil,1,2025,13.25
+Brazil,2,2025,13.25
+Brazil,3,2025,14.25
+Brazil,4,2025,14.25
+Brazil,5,2025,14.75
+Brazil,6,2025,15
+Brazil,7,2025,15
+Brazil,8,2025,15
+Brazil,9,2025,15
+Brazil,10,2025,15
+Brazil,11,2025,15
+Brazil,12,2025,15
+Brazil,1,2026,15
+Brazil,2,2026,15
+Brazil,3,2026,14.75
+Brazil,4,2026,14.5
+Germany,1,2020,0
+Germany,2,2020,0
+Germany,3,2020,0
+Germany,4,2020,0
+Germany,5,2020,0
+Germany,6,2020,0
+Germany,7,2020,0
+Germany,8,2020,0
+Germany,9,2020,0
+Germany,10,2020,0
+Germany,11,2020,0
+Germany,12,2020,0
+Germany,1,2021,0
+Germany,2,2021,0
+Germany,3,2021,0
+Germany,4,2021,0
+Germany,5,2021,0
+Germany,6,2021,0
+Germany,7,2021,0
+Germany,8,2021,0
+Germany,9,2021,0
+Germany,10,2021,0
+Germany,11,2021,0
+Germany,12,2021,0
+Germany,1,2022,0
+Germany,2,2022,0
+Germany,3,2022,0
+Germany,4,2022,0
+Germany,5,2022,0
+Germany,6,2022,0
+Germany,7,2022,0.5
+Germany,8,2022,0.5
+Germany,9,2022,1.25
+Germany,10,2022,1.25
+Germany,11,2022,2
+Germany,12,2022,2.5
+Germany,1,2023,2.5
+Germany,2,2023,3
+Germany,3,2023,3.5
+Germany,4,2023,3.5
+Germany,5,2023,3.75
+Germany,6,2023,4
+Germany,7,2023,4
+Germany,8,2023,4.25
+Germany,9,2023,4.5
+Germany,10,2023,4.5
+Germany,11,2023,4.5
+Germany,12,2023,4.5
+Germany,1,2024,4.5
+Germany,2,2024,4.5
+Germany,3,2024,4.5
+Germany,4,2024,4.5
+Germany,5,2024,4.5
+Germany,6,2024,4.5
+Germany,7,2024,4.25
+Germany,8,2024,4.25
+Germany,9,2024,4.25
+Germany,10,2024,3.65
+Germany,11,2024,3.4
+Germany,12,2024,3.4
+Germany,1,2025,3.15
+Germany,2,2025,3.15
+Germany,3,2025,2.9
+Germany,4,2025,2.65
+Germany,5,2025,2.4
+Germany,6,2025,2.4
+Germany,7,2025,2.15
+Germany,8,2025,2.15
+Germany,9,2025,2.15
+Germany,10,2025,2.15
+Germany,11,2025,2.15
+Germany,12,2025,2.15
+Germany,1,2026,2.15
+Germany,2,2026,2.15
+Germany,3,2026,2.15
+Germany,4,2026,2.15
+India,1,2020,5.15
+India,2,2020,5.15
+India,3,2020,4.4
+India,4,2020,4.4
+India,5,2020,4
+India,6,2020,4
+India,7,2020,4
+India,8,2020,4
+India,9,2020,4
+India,10,2020,4
+India,11,2020,4
+India,12,2020,4
+India,1,2021,4
+India,2,2021,4
+India,3,2021,4
+India,4,2021,4
+India,5,2021,4
+India,6,2021,4
+India,7,2021,4
+India,8,2021,4
+India,9,2021,4
+India,10,2021,4
+India,11,2021,4
+India,12,2021,4
+India,1,2022,4
+India,2,2022,4
+India,3,2022,4
+India,4,2022,4
+India,5,2022,4.4
+India,6,2022,4.9
+India,7,2022,4.9
+India,8,2022,5.4
+India,9,2022,5.9
+India,10,2022,5.9
+India,11,2022,5.9
+India,12,2022,6.25
+India,1,2023,6.25
+India,2,2023,6.5
+India,3,2023,6.5
+India,4,2023,6.5
+India,5,2023,6.5
+India,6,2023,6.5
+India,7,2023,6.5
+India,8,2023,6.5
+India,9,2023,6.5
+India,10,2023,6.5
+India,11,2023,6.5
+India,12,2023,6.5
+India,1,2024,6.5
+India,2,2024,6.5
+India,3,2024,6.5
+India,4,2024,6.5
+India,5,2024,6.5
+India,6,2024,6.5
+India,7,2024,6.5
+India,8,2024,6.5
+India,9,2024,6.5
+India,10,2024,6.5
+India,11,2024,6.5
+India,12,2024,6.5
+India,1,2025,6.5
+India,2,2025,6.25
+India,3,2025,6.25
+India,4,2025,6
+India,5,2025,6
+India,6,2025,5.5
+India,7,2025,5.5
+India,8,2025,5.5
+India,9,2025,5.5
+India,10,2025,5.5
+India,11,2025,5.5
+India,12,2025,5.25
+India,1,2026,5.25
+India,2,2026,5.25
+India,3,2026,5.25
+Japan,1,2020,-0.1
+Japan,2,2020,-0.1
+Japan,3,2020,-0.1
+Japan,4,2020,-0.1
+Japan,5,2020,-0.1
+Japan,6,2020,-0.1
+Japan,7,2020,-0.1
+Japan,8,2020,-0.1
+Japan,9,2020,-0.1
+Japan,10,2020,-0.1
+Japan,11,2020,-0.1
+Japan,12,2020,-0.1
+Japan,1,2021,-0.1
+Japan,2,2021,-0.1
+Japan,3,2021,-0.1
+Japan,4,2021,-0.1
+Japan,5,2021,-0.1
+Japan,6,2021,-0.1
+Japan,7,2021,-0.1
+Japan,8,2021,-0.1
+Japan,9,2021,-0.1
+Japan,10,2021,-0.1
+Japan,11,2021,-0.1
+Japan,12,2021,-0.1
+Japan,1,2022,-0.1
+Japan,2,2022,-0.1
+Japan,3,2022,-0.1
+Japan,4,2022,-0.1
+Japan,5,2022,-0.1
+Japan,6,2022,-0.1
+Japan,7,2022,-0.1
+Japan,8,2022,-0.1
+Japan,9,2022,-0.1
+Japan,10,2022,-0.1
+Japan,11,2022,-0.1
+Japan,12,2022,-0.1
+Japan,1,2023,-0.1
+Japan,2,2023,-0.1
+Japan,3,2023,-0.1
+Japan,4,2023,-0.1
+Japan,5,2023,-0.1
+Japan,6,2023,-0.1
+Japan,7,2023,-0.1
+Japan,8,2023,-0.1
+Japan,9,2023,-0.1
+Japan,10,2023,-0.1
+Japan,11,2023,-0.1
+Japan,12,2023,-0.1
+Japan,1,2024,-0.1
+Japan,2,2024,-0.1
+Japan,3,2024,0.05
+Japan,4,2024,0.05
+Japan,5,2024,0.05
+Japan,6,2024,0.05
+Japan,7,2024,0.05
+Japan,8,2024,0.25
+Japan,9,2024,0.25
+Japan,10,2024,0.25
+Japan,11,2024,0.25
+Japan,12,2024,0.25
+Japan,1,2025,0.5
+Japan,2,2025,0.5
+Japan,3,2025,0.5
+Japan,4,2025,0.5
+Japan,5,2025,0.5
+Japan,6,2025,0.5
+Japan,7,2025,0.5
+Japan,8,2025,0.5
+Japan,9,2025,0.5
+Japan,10,2025,0.5
+Japan,11,2025,0.5
+Japan,12,2025,0.75
+Japan,1,2026,0.75
+Japan,2,2026,0.75
+Japan,3,2026,0.75
+Japan,4,2026,0.75
+United Kingdom,1,2020,0.75
+United Kingdom,2,2020,0.75
+United Kingdom,3,2020,0.1
+United Kingdom,4,2020,0.1
+United Kingdom,5,2020,0.1
+United Kingdom,6,2020,0.1
+United Kingdom,7,2020,0.1
+United Kingdom,8,2020,0.1
+United Kingdom,9,2020,0.1
+United Kingdom,10,2020,0.1
+United Kingdom,11,2020,0.1
+United Kingdom,12,2020,0.1
+United Kingdom,1,2021,0.1
+United Kingdom,2,2021,0.1
+United Kingdom,3,2021,0.1
+United Kingdom,4,2021,0.1
+United Kingdom,5,2021,0.1
+United Kingdom,6,2021,0.1
+United Kingdom,7,2021,0.1
+United Kingdom,8,2021,0.1
+United Kingdom,9,2021,0.1
+United Kingdom,10,2021,0.1
+United Kingdom,11,2021,0.1
+United Kingdom,12,2021,0.25
+United Kingdom,1,2022,0.25
+United Kingdom,2,2022,0.5
+United Kingdom,3,2022,0.75
+United Kingdom,4,2022,0.75
+United Kingdom,5,2022,1
+United Kingdom,6,2022,1.25
+United Kingdom,7,2022,1.25
+United Kingdom,8,2022,1.75
+United Kingdom,9,2022,2.25
+United Kingdom,10,2022,2.25
+United Kingdom,11,2022,3
+United Kingdom,12,2022,3.5
+United Kingdom,1,2023,3.5
+United Kingdom,2,2023,4
+United Kingdom,3,2023,4.25
+United Kingdom,4,2023,4.25
+United Kingdom,5,2023,4.5
+United Kingdom,6,2023,5
+United Kingdom,7,2023,5
+United Kingdom,8,2023,5.25
+United Kingdom,9,2023,5.25
+United Kingdom,10,2023,5.25
+United Kingdom,11,2023,5.25
+United Kingdom,12,2023,5.25
+United Kingdom,1,2024,5.25
+United Kingdom,2,2024,5.25
+United Kingdom,3,2024,5.25
+United Kingdom,4,2024,5.25
+United Kingdom,5,2024,5.25
+United Kingdom,6,2024,5.25
+United Kingdom,7,2024,5.25
+United Kingdom,8,2024,5
+United Kingdom,9,2024,5
+United Kingdom,10,2024,5
+United Kingdom,11,2024,4.75
+United Kingdom,12,2024,4.75
+United Kingdom,1,2025,4.75
+United Kingdom,2,2025,4.5
+United Kingdom,3,2025,4.5
+United Kingdom,4,2025,4.5
+United Kingdom,5,2025,4.25
+United Kingdom,6,2025,4.25
+United Kingdom,7,2025,4.25
+United Kingdom,8,2025,4
+United Kingdom,9,2025,4
+United Kingdom,10,2025,4
+United Kingdom,11,2025,4
+United Kingdom,12,2025,3.75
+United Kingdom,1,2026,3.75
+United Kingdom,2,2026,3.75
+United Kingdom,3,2026,3.75
+United Kingdom,4,2026,3.75
+United States,1,2020,1.625
+United States,2,2020,1.625
+United States,3,2020,0.125
+United States,4,2020,0.125
+United States,5,2020,0.125
+United States,6,2020,0.125
+United States,7,2020,0.125
+United States,8,2020,0.125
+United States,9,2020,0.125
+United States,10,2020,0.125
+United States,11,2020,0.125
+United States,12,2020,0.125
+United States,1,2021,0.125
+United States,2,2021,0.125
+United States,3,2021,0.125
+United States,4,2021,0.125
+United States,5,2021,0.125
+United States,6,2021,0.125
+United States,7,2021,0.125
+United States,8,2021,0.125
+United States,9,2021,0.125
+United States,10,2021,0.125
+United States,11,2021,0.125
+United States,12,2021,0.125
+United States,1,2022,0.125
+United States,2,2022,0.125
+United States,3,2022,0.375
+United States,4,2022,0.375
+United States,5,2022,0.875
+United States,6,2022,1.625
+United States,7,2022,2.375
+United States,8,2022,2.375
+United States,9,2022,3.125
+United States,10,2022,3.125
+United States,11,2022,3.875
+United States,12,2022,4.375
+United States,1,2023,4.375
+United States,2,2023,4.625
+United States,3,2023,4.875
+United States,4,2023,4.875
+United States,5,2023,5.125
+United States,6,2023,5.125
+United States,7,2023,5.375
+United States,8,2023,5.375
+United States,9,2023,5.375
+United States,10,2023,5.375
+United States,11,2023,5.375
+United States,12,2023,5.375
+United States,1,2024,5.375
+United States,2,2024,5.375
+United States,3,2024,5.375
+United States,4,2024,5.375
+United States,5,2024,5.375
+United States,6,2024,5.375
+United States,7,2024,5.375
+United States,8,2024,5.375
+United States,9,2024,4.875
+United States,10,2024,4.875
+United States,11,2024,4.625
+United States,12,2024,4.375
+United States,1,2025,4.375
+United States,2,2025,4.375
+United States,3,2025,4.375
+United States,4,2025,4.375
+United States,5,2025,4.375
+United States,6,2025,4.375
+United States,7,2025,4.375
+United States,8,2025,4.375
+United States,9,2025,4.125
+United States,10,2025,3.875
+United States,11,2025,3.875
+United States,12,2025,3.625
+United States,1,2026,3.625
+United States,2,2026,3.625
+United States,3,2026,3.625
+United States,4,2026,3.625
