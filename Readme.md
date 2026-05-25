@@ -79,7 +79,7 @@ Combines all 7 economic indicator tables into a single annual view across 7 coun
 > 
 > ⚠️ **Note on Gini:** The Gini coefficient is collected through national household income surveys conducted every 2-5 years depending on the country, resulting in data gaps for non-survey years.
 
-### [Inequality Analysis](Inequality_analysis.sql)
+### [Inequality Analysis](/Queries/Inequality_analysis.sql)
 Inequality classifications are categorized based on the Gini Coefficient. Countries with low Gini coefficients on the near years are automatically assumed as low Gini.
 
 <img width="435" height="795" alt="Inequality_Analysis" src="https://github.com/user-attachments/assets/2f2c826e-531c-441d-be64-1275431a964f" />
@@ -108,7 +108,7 @@ The inflation rate is calculated based on changes in CPI over time. The policy r
 * **Australia's Disciplined Disinflation:** Australia achieved the fastest structural disinflation. CPI inflation peaked at 7.83% in Q4 2022 and fell to 2.42% by Q4 2024—a 5.41 percentage point drop in just two years. The cash rate peaked at 4.35% and was held there for a highly disciplined macroeconomic response.
 * **The UK's Stagflation Persistence:** UK inflation proved to be the most sticky and persistent, remaining near double digits into Q1 2023, nearly three-quarters of a year after the USA's inflation trajectory had turned downward. The UK took longer to control price pressures than any other developed economy in the dataset.
 
-### [Overall Economic Health Analysis](Economic_health_Analysis.sql)
+### [Overall Economic Health Analysis](/Queries/Economic_health_Analysis.sql)
 
 <img width="655" height="404" alt="Economic Health Analysis" src="https://github.com/user-attachments/assets/d787fa9f-6447-4cd6-9937-97dc150e36e6" />
 
