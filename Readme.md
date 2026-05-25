@@ -137,3 +137,9 @@ This project successfully constructs a multi-layered analytical engine that dist
 * **Monetary Policy Proactivity:** Visualizing monetary responses confirms that proactive, early-cycle tightening (as seen in Brazil) is often necessary for stabilization in highly volatile markets, whereas delayed reactive measures (as observed in the Eurozone) can cause inflation pressures to linger over extended periods.
 
 Ultimately, this analysis moves past basic, standalone metrics to evaluate economic health holistically. The project demonstrates a strong ability to translate raw transactional data from public repositories into refined, engineered analytical products capable of driving complex macroeconomic tracking.
+
+## Upcoming Project: Power BI & Power Query Dynamic Visualization
+
+Building upon the backend data engineering established in this project, the next phase focuses on transitioning these SQL datasets into an interactive business intelligence suite using **Power BI** and **Power Query**. 
+
+Rather than relying on static image exports, this upcoming expansion will leverage the same cleaned, unified data architecture to deploy highly dynamic, consumer-facing macro dashboards.
