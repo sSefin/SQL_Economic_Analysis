@@ -27,7 +27,6 @@ ORDER BY
     gross_domestic_product.country_name ASC, gross_domestic_product.year ASC
 ),
 
-
 economic_equality AS
 (
 SELECT 
@@ -46,7 +45,6 @@ GROUP BY
 ORDER BY consumer_price_index.country_name, consumer_price_index.year ASC
 ),
 
-
 annual_policy_rate AS 
 (
 SELECT 
@@ -60,8 +58,6 @@ GROUP BY
 ORDER BY 
         policy_rate.country_name, policy_rate.year ASC
 )
-
-
 
 SELECT 
         country_development.country,
@@ -80,5 +76,6 @@ LEFT JOIN
         ON country_development.country = economic_equality.country 
         AND country_development.year = economic_equality.year
 LEFT JOIN 
-            annual_policy_rate ON country_development.country = annual_policy_rate.country AND
-            country_development.year = annual_policy_rate.year
+        annual_policy_rate 
+        ON country_development.country = annual_policy_rate.country 
+        AND country_development.year = annual_policy_rate.year;

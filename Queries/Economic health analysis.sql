@@ -1,3 +1,4 @@
+-- CTE from Query 1: Consolidates primary macroeconomic metrics
 WITH country_development AS 
 (
 SELECT
@@ -27,8 +28,7 @@ ORDER BY
     gross_domestic_product.country_name ASC, gross_domestic_product.year ASC
 ),
 
-
-
+-- CTE to average quarterly CPI data as yearly CPI before applying window functions
 annual_cpi AS 
 (
     SELECT 
@@ -39,9 +39,9 @@ annual_cpi AS
     GROUP BY country_name, year
 ),
 
-
-
-
+-- CTE to use LAG on yearly CPI. 
+-- Note: Separating the step here ensures the historical index column is physically built 
+-- before being processed inside the subsequent multi-variable inflation rate division equation.
 economic_equality AS
 (
 SELECT 
@@ -59,9 +59,7 @@ LEFT JOIN
 ORDER BY annual_cpi.country_name, annual_cpi.year ASC
 ),
 
-
-
-
+-- CTE to execute the mathematical formula for Year-over-Year Inflation
 inflation AS 
 (SELECT 
         economic_equality.country,
@@ -72,50 +70,47 @@ FROM
 ORDER BY economic_equality.country, economic_equality.year ASC
 ),
 
-
-
-
-
+-- CTE to normalize all variables onto an equal 0-to-100 playing field.
+-- Uses standard Min-Max scaling for positive metrics (GDP, HDI, QoL) 
+-- and inverted Min-Max scaling for negative metrics (Unemployment, Inflation) where lower values are better.
 normalised AS
 (
 SELECT 
         country_development.country AS country,
         country_development.year AS year,
-        ROUND(((country_development.gdp - MIN(country_development.gdp)OVER (PARTITION BY country_development.year))/NULLIF(MAX(country_development.gdp) OVER (PARTITION BY country_development.year) - MIN(country_development.gdp) OVER (PARTITION BY country_development.year), 0)) * 100, 2) AS gdp_normalized,
+        ROUND(((country_development.gdp - MIN(country_development.gdp) OVER (PARTITION BY country_development.year))/NULLIF(MAX(country_development.gdp) OVER (PARTITION BY country_development.year) - MIN(country_development.gdp) OVER (PARTITION BY country_development.year), 0)) * 100, 2) AS gdp_normalized,
         ROUND(((country_development.hdi - MIN(country_development.hdi) OVER (PARTITION BY country_development.year))/NULLIF(MAX(country_development.hdi) OVER (PARTITION BY country_development.year) - MIN(country_development.hdi) OVER (PARTITION BY country_development.year), 0)) * 100, 2) AS hdi_normalized,
         ROUND(((country_development.qol - MIN(country_development.qol) OVER (PARTITION BY country_development.year))/NULLIF(MAX(country_development.qol) OVER (PARTITION BY country_development.year) - MIN(country_development.qol) OVER (PARTITION BY country_development.year), 0)) * 100, 2) AS qol_normalized,
         ROUND(((MAX(country_development.unemployment_rate) OVER (PARTITION BY country_development.year) - country_development.unemployment_rate)/NULLIF(MAX(country_development.unemployment_rate) OVER (PARTITION BY country_development.year) - MIN(country_development.unemployment_rate) OVER (PARTITION BY country_development.year), 0)) * 100, 2) AS unemployment_normalized,
-        ROUND(((MAX(inflation.inflation_rate)OVER (PARTITION BY country_development.year) - inflation.inflation_rate)/NULLIF(MAX(inflation.inflation_rate) OVER (PARTITION BY country_development.year) - MIN(inflation.inflation_rate) OVER (PARTITION BY country_development.year), 0)) * 100, 2) AS inflation_normalized,
-        ROUND(((MAX(economic_equality.gini_value)OVER (PARTITION BY country_development.year) - economic_equality.gini_value)/NULLIF(MAX(economic_equality.gini_value) OVER (PARTITION BY country_development.year) - MIN(economic_equality.gini_value) OVER (PARTITION BY country_development.year), 0)) * 100, 2) AS gini_normalized
+        ROUND(((MAX(inflation.inflation_rate) OVER (PARTITION BY country_development.year) - inflation.inflation_rate)/NULLIF(MAX(inflation.inflation_rate) OVER (PARTITION BY country_development.year) - MIN(inflation.inflation_rate) OVER (PARTITION BY country_development.year), 0)) * 100, 2) AS inflation_normalized
 FROM 
         country_development
 LEFT JOIN 
         economic_equality 
         ON country_development.country = economic_equality.country 
         AND country_development.year = economic_equality.year
-
-LEFT JOIN
+LEFT JOIN 
         inflation 
         ON country_development.country = inflation.country 
         AND country_development.year = inflation.year
-        ORDER BY country_development.country, country_development.year ASC
+ORDER BY country_development.country, country_development.year ASC
 )
 
+-- Final compilation block calculating composite scoring and ranks
 SELECT
-normalised.country,
-normalised.year,
-normalised.gdp_normalized,
-normalised.hdi_normalized,
-normalised.qol_normalized,
-normalised.unemployment_normalized,
-normalised.inflation_normalized,
+    normalised.country,
+    normalised.year,
+    normalised.gdp_normalized,
+    normalised.hdi_normalized,
+    normalised.qol_normalized,
+    normalised.unemployment_normalized,
+    normalised.inflation_normalized,
     ROUND((normalised.gdp_normalized + normalised.hdi_normalized + normalised.qol_normalized + normalised.unemployment_normalized + normalised.inflation_normalized) / 5, 2) AS composite_score,
     RANK() OVER (
         PARTITION BY year 
+        -- Repeated the full expression because SQL order of execution prevents using the 'composite_score' alias inside a window function here
         ORDER BY (normalised.gdp_normalized + normalised.hdi_normalized + normalised.qol_normalized + normalised.unemployment_normalized + normalised.inflation_normalized) / 5 DESC
     ) AS rank
 FROM normalised
-WHERE YEAR BETWEEN 2020 AND 2023
+WHERE year BETWEEN 2020 AND 2023
 ORDER BY year, rank ASC;
-
-
