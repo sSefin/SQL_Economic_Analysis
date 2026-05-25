@@ -67,7 +67,7 @@ All datasets are sourced from reputable institutional and government sources. No
 
 ## Analysis Overview  
 
-### Annual Macro Overview
+### [Annual Macro Overview](/Queries/economic_development_indicators_all.sql)
 
 <img width="1353" height="796" alt="overall_analysis" src="https://github.com/user-attachments/assets/ebfcac49-1c2b-4b8a-b647-ab6160e71885" />
 
@@ -79,7 +79,7 @@ Combines all 7 economic indicator tables into a single annual view across 7 coun
 > 
 > ⚠️ **Note on Gini:** The Gini coefficient is collected through national household income surveys conducted every 2-5 years depending on the country, resulting in data gaps for non-survey years.
 
-### Inequality Analysis
+### [Inequality Analysis](/Queries/Inequality_analysis.sql)
 Inequality classifications are categorized based on the Gini Coefficient. Countries with low Gini coefficients on the near years are automatically assumed as low Gini.
 
 <img width="435" height="795" alt="Inequality_Analysis" src="https://github.com/user-attachments/assets/2f2c826e-531c-441d-be64-1275431a964f" />
@@ -91,7 +91,7 @@ Inequality classifications are categorized based on the Gini Coefficient. Countr
 * **Brazil's Volatility & Turnaround:** Brazil exhibited the highest unemployment (14.90% in 2021) and the lowest QOL (104.7) among all 7 countries, which aligns with its high inequality index (Gini 51.6). However, unemployment improved significantly to 6.10% by 2026 and QOL showed a gradual recovery, suggesting that Brazil's aggressive, forward-leaning monetary policy response successfully stabilized the real economy.
 * **Low-Inequality Performance:** Among low-inequality countries, no single nation dominates across all metrics. Japan leads on labor market efficiency (2.80% unemployment in 2022), Australia dominates on lifestyle stability (183.8 QOL in 2022), while Germany maintains the strongest balanced profile across all indicators.
 
-### Inflation Policy Analysis
+### [Inflation Policy Analysis](/Queries/Inflation_policy_analysis.sql)
 
 <img width="627" height="611" alt="Inflation_policy_analysis" src="https://github.com/user-attachments/assets/14319dc8-de2c-4070-bd11-b987c93965b2" />
 
@@ -108,7 +108,7 @@ The inflation rate is calculated based on changes in CPI over time. The policy r
 * **Australia's Disciplined Disinflation:** Australia achieved the fastest structural disinflation. CPI inflation peaked at 7.83% in Q4 2022 and fell to 2.42% by Q4 2024—a 5.41 percentage point drop in just two years. The cash rate peaked at 4.35% and was held there for a highly disciplined macroeconomic response.
 * **The UK's Stagflation Persistence:** UK inflation proved to be the most sticky and persistent, remaining near double digits into Q1 2023, nearly three-quarters of a year after the USA's inflation trajectory had turned downward. The UK took longer to control price pressures than any other developed economy in the dataset.
 
-### Overall Economic Health Analysis
+### [Overall Economic Health Analysis](/Queries/Economic_health_Analysis.sql)
 
 <img width="655" height="404" alt="Economic Health Analysis" src="https://github.com/user-attachments/assets/d787fa9f-6447-4cd6-9937-97dc150e36e6" />
 
