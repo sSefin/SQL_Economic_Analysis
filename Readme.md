@@ -102,13 +102,13 @@ The inflation rate is calculated based on changes in CPI over time. The policy r
 
 #### Findings:
 * **The Post-COVID Surge:** Developed countries in the dataset experienced deflation or near-deflation conditions at the start of COVID-19. However, supply chain shocks and fiscal stimulus pushed inflation to historical peaks during 2022.
-* **Brazil's Early Tightening Proactivity:** Brazil reacted earliest and most aggressively. When its domestic inflation peaked at 11.92%, policy rates had already been jacked up to 13.25%. Brazil was dealing with unique domestic inflationary bottlenecks before global post-COVID supply inflation materialized, explaining its elevated rate baseline.
+* **Brazil's Early Tightening Proactivity:** Brazil reacted earliest and most aggressively. When its domestic inflation peaked at 11.92%, policy rates had already been increased to 13.25%. Brazil was dealing with unique domestic inflationary bottlenecks before global post-COVID supply inflation materialized, explaining its elevated rate baseline.
 * **The Eurozone Lag:** Germany's interest rate framework was held at minimum levels by the ECB until inflation had already peaked, representing a more reactive monetary stance.
 * **Japan's Outlier Strategy:** Japan consistently refused to raise its policy rate despite breaching its inflation targets, operating on the structural analysis that its inflation was transient and cost-push driven entirely by external commodity imports.
 * **Australia's Disciplined Disinflation:** Australia achieved the fastest structural disinflation. CPI inflation peaked at 7.83% in Q4 2022 and fell to 2.42% by Q4 2024—a 5.41 percentage point drop in just two years. The cash rate peaked at 4.35% and was held there for a highly disciplined macroeconomic response.
 * **The UK's Stagflation Persistence:** UK inflation proved to be the most sticky and persistent, remaining near double digits into Q1 2023, nearly three-quarters of a year after the USA's inflation trajectory had turned downward. The UK took longer to control price pressures than any other developed economy in the dataset.
 
-### [Overall Economic Health Analysis](/Queries/Economic_health_Analysis.sql)
+### [Overall Economic Health Analysis](/Queries/Economic_health_analysis.sql)
 
 <img width="655" height="404" alt="Economic Health Analysis" src="https://github.com/user-attachments/assets/d787fa9f-6447-4cd6-9937-97dc150e36e6" />
 
