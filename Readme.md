@@ -80,7 +80,7 @@ Combines all 7 economic indicator tables into a single annual view across 7 coun
 > ⚠️ **Note on Gini:** The Gini coefficient is collected through national household income surveys conducted every 2-5 years depending on the country, resulting in data gaps for non-survey years.
 
 ### [Inequality Analysis](/Queries/Inequality_analysis.sql)
-Inequality classifications are categorized based on the Gini Coefficient. Countries with low Gini coefficients on the near years are automatically assumed as low Gini.
+Inequality classifications are categorized based on the Gini Coefficient. Given that Gini surveys occur every 2-5 years, the most recent available survey value is used as a structural proxy for surrounding years.
 
 <img width="435" height="795" alt="Inequality_Analysis" src="https://github.com/user-attachments/assets/2f2c826e-531c-441d-be64-1275431a964f" />
 
