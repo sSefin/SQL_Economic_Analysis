@@ -3,10 +3,10 @@ WITH cpi_q AS
 SELECT
         consumer_price_index.country_name as country,
         CASE quarter
-            WHEN 1 THEN 'Q1'
-            WHEN 2 THEN 'Q2'
-            WHEN 3 THEN 'Q3'
-            WHEN 4 THEN 'Q4'
+            WHEN '1' THEN 'Q1'
+            WHEN '2' THEN 'Q2'
+            WHEN '3' THEN 'Q3'
+            WHEN '4' THEN 'Q4'
         END AS quarter,
         consumer_price_index.year as year,
         ROUND(consumer_price_index.cpi, 2) as cpi,
