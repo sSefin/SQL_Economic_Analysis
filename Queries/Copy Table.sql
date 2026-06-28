@@ -35,5 +35,5 @@ FROM 'D:\SQL + PowerBI\SQL_Economic_Analysis\DataSets\unemployment_rate_brazil.c
 DELIMITER ',' CSV HEADER;
 
 COPY unemployment_rate (country_name, year, unemployment_rate) 
-FROM D:\SQL + PowerBI\SQL_Economic_Analysis\DataSets\unemployment_rate_india.csv' 
+FROM 'D:\SQL + PowerBI\SQL_Economic_Analysis\DataSets\unemployment_rate_india.csv' 
 DELIMITER ',' CSV HEADER;

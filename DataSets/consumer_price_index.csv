@@ -1,5 +1,5 @@
 country_name,year,quarter,cpi
-Australia,2019,1,106.0
+Australia,2019,1,106
 Australia,2019,2,106.6
 Australia,2019,3,107.12
 Australia,2019,4,107.9
@@ -89,6 +89,8 @@ Japan,2020,3,101.8071
 Japan,2020,4,101.332
 Japan,2021,1,101.6374
 Japan,2021,2,101.1284
+Japan,2021,3,101.71
+Japan,2021,4,101.81
 United Kingdom,2020,1,108.5
 United Kingdom,2020,2,108.7
 United Kingdom,2020,3,109.1
